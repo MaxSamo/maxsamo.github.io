@@ -29,13 +29,13 @@
 				<p>
 					<span class="image left"><img src="images/alderlake-cpu-schematics.jpg" alt="" /></span>
 					I felt very curious about being able to see how computing hardware works in real-time. To visualise
-					the hardware, I mapped the layout of my CPU onto my application, and represented each CPU core as an
+					the hardware, I mapped the layout of my CPU and represented each CPU core as an
 					individual tile.<br>
-					This side-by-side image shows the architecture of my CPU (although I have 4 SMT cores instead of 6)
+					This side-by-side image shows the architecture of my CPU (although I have 4 active SMT cores instead of 6)
 					and how my application represents this CPU topology. The blue tiles are the performance cores, that
 					support multi-threading, while the two gray tiles to the bottom - are the two blocks of 4 efficiency
 					cores.<br>
-					I have also added an experimental feature to throttle each CPU individually, in order to prevent the
+					I have also added an experimental feature to throttle each CPU core individually, in order to prevent the
 					CPU from staying above a certain temperature. It works surprisingly well, and I will cover it later
 					as I fill up this webpage with more content.<br>
 					To visualise how the CPU is running, I am extracting the information about the CPU time usage from the OS,
@@ -53,7 +53,7 @@
 
 				<section>
 					<h3>Address</h3>
-					<p>Tramelan, Bern, Switzerland</p>
+					<p>Werther, NRW, Germany</p>
 				</section>
 				<section>
 					<h3>Phone</h3>
@@ -99,5 +99,6 @@
 	<script src="assets/js/main.js"></script>
 
 </body>
+
 
 </html>
